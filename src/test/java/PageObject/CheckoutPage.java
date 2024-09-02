@@ -22,7 +22,7 @@ By PromoCode = By.cssSelector(".promoCode");
 By PromoCodeApply = By.xpath("//button[contains(text(),'Apply')]");
 By PlaceOrder = By.xpath("//button[contains(text(),'Place Order')]");
 
-//rajat gupta
+
 public void Click_Cart()
 {
 	driver.findElement(cart_click).click();
